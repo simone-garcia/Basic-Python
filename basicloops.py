@@ -23,7 +23,8 @@ print("***********************************")
 spongebob_reference = "yes"
 
 while spongebob_reference == "yes":
-    print("Wanna see me run to that mountain and back?")
+    first = input("Wanna see me run to that mountain and back?")
+    if first == "yes":
     spongebob_reference = input("Wanna see me do it again? ")
 
 
